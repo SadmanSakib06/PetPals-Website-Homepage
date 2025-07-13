@@ -10,10 +10,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">P</span>
-            </div>
-            <span className="ml-2 text-xl font-bold text-gray-900">PetPal</span>
+            <img src="logo.png" alt="Logo" className="h-[40px] w-auto" />
           </div>
 
           {/* Desktop Navigation */}
